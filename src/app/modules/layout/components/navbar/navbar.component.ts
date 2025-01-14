@@ -7,8 +7,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
+    selector: 'app-navbar',
+    templateUrl: './navbar.component.html',
+    standalone: false
 })
 export class NavbarComponent {
   faBell = faBell;

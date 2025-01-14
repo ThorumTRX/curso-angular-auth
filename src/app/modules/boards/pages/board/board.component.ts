@@ -10,10 +10,10 @@ import { TodoDialogComponent } from '@boards/components/todo-dialog/todo-dialog.
 import { ToDo, Column } from '@models/todo.model';
 
 @Component({
-  selector: 'app-board',
-  templateUrl: './board.component.html',
-  styles: [
-    `
+    selector: 'app-board',
+    templateUrl: './board.component.html',
+    styles: [
+        `
       .cdk-drop-list-dragging .cdk-drag {
         transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
       }
@@ -21,7 +21,8 @@ import { ToDo, Column } from '@models/todo.model';
         transition: transform 300ms cubic-bezier(0, 0, 0.2, 1);
       }
     `,
-  ],
+    ],
+    standalone: false
 })
 export class BoardComponent {
   columns: Column[] = [

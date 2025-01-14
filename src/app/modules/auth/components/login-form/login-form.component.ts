@@ -7,8 +7,9 @@ import { RequestStatus } from '@models/rerquest-status.model';
 
 
 @Component({
-  selector: 'app-login-form',
-  templateUrl: './login-form.component.html'
+    selector: 'app-login-form',
+    templateUrl: './login-form.component.html',
+    standalone: false
 })
 export class LoginFormComponent {
 

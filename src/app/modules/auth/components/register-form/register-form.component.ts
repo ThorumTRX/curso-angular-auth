@@ -7,8 +7,9 @@ import { CustomValidators } from '@utils/validators';
 import { RequestStatus } from '@models/rerquest-status.model';
 import { AuthService } from '@services/auth.service';
 @Component({
-  selector: 'app-register-form',
-  templateUrl: './register-form.component.html',
+    selector: 'app-register-form',
+    templateUrl: './register-form.component.html',
+    standalone: false
 })
 export class RegisterFormComponent {
   form = this.formBuilder.nonNullable.group({

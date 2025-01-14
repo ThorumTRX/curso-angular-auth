@@ -2,8 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-btn',
-  templateUrl: './button.component.html',
+    selector: 'app-btn',
+    templateUrl: './button.component.html',
+    standalone: false
 })
 export class ButtonComponent {
   @Input() disabled = false;

@@ -20,8 +20,9 @@ interface OutputData {
 }
 
 @Component({
-  selector: 'app-todo-dialog',
-  templateUrl: './todo-dialog.component.html',
+    selector: 'app-todo-dialog',
+    templateUrl: './todo-dialog.component.html',
+    standalone: false
 })
 export class TodoDialogComponent {
   faClose = faClose;

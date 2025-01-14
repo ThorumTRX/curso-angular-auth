@@ -3,8 +3,9 @@ import { Component } from '@angular/core';
 import { DataSourceUser } from './data-source';
 
 @Component({
-  selector: 'app-users-table',
-  templateUrl: './users-table.component.html'
+    selector: 'app-users-table',
+    templateUrl: './users-table.component.html',
+    standalone: false
 })
 export class UsersTableComponent  {
 

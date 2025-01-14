@@ -3,8 +3,9 @@ import { faBox, faWaveSquare, faClock, faAngleUp, faAngleDown, faHeart, faBorder
 import { faTrello } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
-  selector: 'app-boards',
-  templateUrl: './boards.component.html'
+    selector: 'app-boards',
+    templateUrl: './boards.component.html',
+    standalone: false
 })
 export class BoardsComponent {
 

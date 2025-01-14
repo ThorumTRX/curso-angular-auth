@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 @Component({
-  selector: 'app-forgot-password-form',
-  templateUrl: './forgot-password-form.component.html'
+    selector: 'app-forgot-password-form',
+    templateUrl: './forgot-password-form.component.html',
+    standalone: false
 })
 export class ForgotPasswordFormComponent {
 

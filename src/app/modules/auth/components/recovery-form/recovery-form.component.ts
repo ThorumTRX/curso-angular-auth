@@ -5,8 +5,9 @@ import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { CustomValidators } from '@utils/validators';
 
 @Component({
-  selector: 'app-recovery-form',
-  templateUrl: './recovery-form.component.html',
+    selector: 'app-recovery-form',
+    templateUrl: './recovery-form.component.html',
+    standalone: false
 })
 export class RecoveryFormComponent {
   form = this.formBuilder.nonNullable.group(
